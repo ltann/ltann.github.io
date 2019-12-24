@@ -3051,7 +3051,7 @@ input, select, textarea {
 		}
 
 	.spotlight:before {
-			background-image: url("assets/css/images/wallpaper.jpg");
+			background-image: url("images/overlay.png");
 			content: '';
 			display: block;
 			height: 100%;
@@ -3060,13 +3060,13 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		.spotlight .image.main {
-			display: none;
-		}
+		/*.spotlight .image.main {*/
+		/*	display: none;*/
+		/*}*/
 
-			.spotlight .image.main img {
-				position: relative;
-			}
+		/*	.spotlight .image.main img {*/
+		/*		position: absolute;*/
+		/*	}*/
 
 		.spotlight .content {
 			-moz-transform: translate(0,0);
@@ -3465,10 +3465,10 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/screen-code-coding-programming.jpg");;
+			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/screen-code-coding-programming.jpg");;
+			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/screen-code-coding-programming.jpg");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/screen-code-coding-programming.jpg");;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3515,8 +3515,9 @@ input, select, textarea {
 
 				#banner .content .image img {
 					border-radius: 100%;
-					display: block;
+					display: compact;
 					width: 100%;
+					height: 100%;
 				}
 
 	body.is-touch #banner {
