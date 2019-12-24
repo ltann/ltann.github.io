@@ -3051,7 +3051,7 @@ input, select, textarea {
 		}
 
 	.spotlight:before {
-			background-image: url("images/wallpaper.jpg");
+			background-image: url("assets/css/images/wallpaper.jpg");
 			content: '';
 			display: block;
 			height: 100%;
