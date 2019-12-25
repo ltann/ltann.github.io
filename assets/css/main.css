@@ -3060,13 +3060,13 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		/*.spotlight .image.main {*/
-		/*	display: none;*/
-		/*}*/
+		.spotlight .image.main {
+			display: none;
+		}
 
-		/*	.spotlight .image.main img {*/
-		/*		position: absolute;*/
-		/*	}*/
+		.spotlight .image.main img {
+			position: absolute;
+		}
 
 		.spotlight .content {
 			-moz-transform: translate(0,0);
