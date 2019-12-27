@@ -1,8 +1,7 @@
 //turn sidebar into header
 
 $(function() {
-    //caches a jQuery object containing the header element
-    let header = document.getElementById("sidebar"); //this can be done with document.getElementbyId.... but this is using Jquery syntax
+    let header = document.getElementById("sidebar");
     $(window).scroll(function() {
         let scroll = $(window).scrollTop();
         console.log(header);
@@ -13,4 +12,3 @@ $(function() {
         }
     });
 });
-
