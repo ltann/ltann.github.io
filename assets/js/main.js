@@ -8,6 +8,7 @@
 
 	var	$window = $(window),
 		$body = $('body');
+	let $navPanel = $('#navPanel');
 
 	// Breakpoints.
 		breakpoints({
@@ -43,15 +44,15 @@
 	// Nav.
 
 		// Title Bar.
-			$(
-				'<div id="titleBar">' +
-					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span>' +
-				'</div>'
-			)
-				.appendTo($body);
-
-		// Panel.
+		// 	$(
+		// 		'<div id="titleBar">' +
+		// 			'<a href="#navPanel" class="toggle"></a>' +
+		// 			'<span class="title">' + 'asdfasdf'+ '</span>' +
+		// 		'</div>'
+		// 	)
+		// 		.appendTo($body);
+		//
+		// // Panel.
 			$(
 				'<div id="navPanel">' +
 					'<nav>' +
@@ -69,7 +70,7 @@
 					side: 'left',
 					target: $body,
 					visibleClass: 'navPanel-visible'
-				});
+				})
 
 	// Parallax.
 	// Disabled on IE (choppy scrolling) and mobile platforms (poor performance).
