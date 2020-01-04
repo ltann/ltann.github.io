@@ -1,4 +1,4 @@
-My personal website created inspired by Landed HTML5Up template.
+My personal website inspired by Landed HTML5Up template.
 
 
 Credits:
