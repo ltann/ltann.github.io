@@ -32,8 +32,9 @@
 
 	// Scrolly links.
 		$('.scrolly').scrolly({
-			speed: 1500
+			speed: 1000
 		});
+
 
 	// Dropdowns.
 		$('#nav > ul').dropotron({
